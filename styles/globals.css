@@ -1,0 +1,237 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.logoHeader{
+  height: 2.5rem;
+}
+
+.descriptionHero{
+  font-size: 1.08rem;
+}
+
+.bubblesHero{
+  font-size: 0.9rem;
+}
+
+.bubblesHeroDescription{
+  font-size: 1.3rem;
+  line-height: 0.9rem;
+}
+
+.buttonsHero{
+  font-size: 0.85rem;
+}
+
+.accordion {
+  font-size: 17px;
+  margin: 0 2rem;
+}
+
+.accordion__button {
+  border: 0;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: inherit;
+  border-bottom: 1px solid #112B38;
+}
+
+.accordion__button span {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #000;
+  font-size: 15px;
+}
+
+.accordion__button:focus {
+  outline: none;
+  border-bottom: 0px;
+}
+
+.accordion__content {
+  padding: 0 20px;
+  opacity: 0;
+  transition: all 0.3s;
+  height: 0;
+  margin: 0;
+  border-bottom: 1px solid #112B38;
+  border-top: 0;
+}
+
+.accordion__content.active {
+  height: auto;
+  opacity: 1;
+  padding: 0 40px 20px 20px;
+}
+
+.arrow {
+	position: absolute;
+	top: 50%;
+	width: 3vmin;
+	height: 3vmin;
+	background: transparent;
+	border-top: 2px solid #13CD86;
+	border-right: 2px solid #13CD86;
+  cursor: pointer
+}
+
+.arrow.prev{
+  transform: rotate(-135deg);
+  left: -25px;
+}
+
+.arrow.next{
+  transform: rotate(45deg);
+  right: -25px;
+}
+
+.ft-slick__dots--custom {
+  height: 8px;
+  width: 14px;
+  background-color: #3A6080;
+  border-radius: 4px;
+  position: relative;
+}
+
+.slick-dots li {
+  width: 14px;
+  margin: 0 2px;
+  transition: width 0.3s ease-in-out;
+}
+
+.slick-dots .slick-active {
+  width: 56px;
+  transition: width 0.3s ease-in-out;
+}
+
+.slick-dots .slick-active .ft-slick__dots--custom {
+  width: 56px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.slick-dots .slick-active .ft-slick__dots--custom .loading {
+  height: 8px;
+  width: 100%;
+  background-color:green;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+.slick-dots li {
+  height: 8px !important;
+  transition: width 0.3s ease-in-out !important;
+}
+
+@font-face {
+  font-family: "Gibson";
+  src: url("/fonts/Gibson.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gibson-SemiBold";
+  src: url("/fonts/Gibson-SemiBold.ttf");
+  font-style: semibold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gibson-Bold";
+  src: url("/fonts/Gibson-Bold.ttf");
+  font-style: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gibson-Light";
+  src: url("/fonts/Gibson-Light.ttf");
+  font-style: bold;
+  font-display: swap;
+}
+
+.news-card {
+  overflow: hidden;
+  border-radius: 0.3rem;
+  flex: 1;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+}
+.news-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 80%);;
+  z-index: 0;
+}
+
+.news-card__image {
+  width: 100%;
+  /* height: 100%; */
+  display: block;
+  object-fit: contain;
+  transition: transform 1.5s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  z-index: -1;
+  transition: filter 1s;
+  filter: grayscale(100%);
+}
+.news-card__text-wrapper {
+  position: absolute;
+  bottom: 0rem;
+  padding: 1rem;
+  color: white;
+  transition: background-color 1.5s;
+  background-color: #789D9E;
+}
+.news-card__title {
+  margin-top: .5rem;
+  font-family: "Gibson"
+}
+.news-card__position {
+  font-size: 1rem;
+}
+.news-card__details-wrapper {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 1s;
+}
+.news-card:hover .news-card__details-wrapper {
+  max-height: 18rem;
+  opacity: 1;
+}
+.news-card:hover .news-card__text-wrapper {
+  background-color: #13CD86;
+}
+.news-card:hover .news-card__image {
+  z-index: -1;
+  filter: none;
+}
+.news-card__excerpt {
+  font-size: 1rem;
+  color: #12232F;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
