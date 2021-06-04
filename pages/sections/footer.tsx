@@ -12,7 +12,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="py-5 container mx-auto px-5 md:px-0 lg:px-28">
+    <div className="py-5 container mx-auto">
       <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
         <div className="flex flex-col justify-center">
           <div><img className="mb-10" src="images/Group 20.png" /></div>

@@ -13,7 +13,7 @@ import Title from "../components/title";
 
 const Stats = () => {
   return (
-    <div className="py-24 container mx-auto px-5 md:px-0 lg:px-28">
+    <div className="py-24 container mx-auto">
       <div className="mb-14">
         <img className="w-20" src="images/Group 1.png" />
         <Title>Redes sociales</Title>
