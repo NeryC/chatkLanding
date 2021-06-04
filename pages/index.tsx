@@ -1,4 +1,5 @@
 import React from "react";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { AppBar } from "./sections/app-bar";
 import Copyright from "./sections/copyright";
 import Faq from "./sections/faq";
@@ -27,6 +28,11 @@ export default function Home(props: any) {
   );
 }
 
-export async function getStaticProps() {
-  return { props: { isStatic: true } };
+export async function getStaticProps({ locale }) {
+  return { 
+    props: { 
+      isStatic: true,
+      ...(await serverSideTranslations(locale, ['common', 'app-bar','card_member_list','tools','subscribe','stats','pool-info','hero','footer','faq'])),
+    } 
+  };
 }

@@ -125,7 +125,7 @@ body {
 .slick-dots .slick-active .ft-slick__dots--custom .loading {
   height: 8px;
   width: 100%;
-  background-color:green;
+  background-color:#13CD86;
   display: inline-block;
   position: absolute;
   top: 0;
@@ -184,7 +184,6 @@ body {
 
 .news-card__image {
   width: 100%;
-  /* height: 100%; */
   display: block;
   object-fit: contain;
   transition: transform 1.5s;
@@ -201,7 +200,7 @@ body {
   padding: 1rem;
   color: white;
   transition: background-color 1.5s;
-  background-color: #789D9E;
+  background-color: #3A6060;
 }
 .news-card__title {
   margin-top: .5rem;

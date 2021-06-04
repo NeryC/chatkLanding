@@ -12,8 +12,8 @@ export const Tool: FC<MyProps> = ({ title, children, imageUrl }) => {
         <img className="w-18 mb-5 self-center" src={imageUrl} />
       </div>
 
-      <span className="font-gibson-light text-1xl mb-5">{title}</span>
-      <span className="font-gibson-light text-green-chia-dark1 text-sm">{children}</span>
+      <span className="text-1xl mb-5">{title}</span>
+      <span className="font-gibson-light  text-sm">{children}</span>
     </div>
   );
 };

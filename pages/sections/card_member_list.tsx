@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'next-i18next';
 import Slider from "react-slick";
 import Title from "../components/title";
 import CardMember from "./card_member";
@@ -7,6 +8,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const CardMemberList = () => {
+  const { t } = useTranslation('card_member_list');
+
   const settings = {
     dots: true,
     infinite: true,
@@ -66,7 +69,7 @@ const CardMemberList = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center mt-24 text-center px-5 sm:px-0">
           <img className="w-20" src="images/Group 1.png" />
-          <Title>Miembros de nuestro equipo</Title>
+          <Title>{t('title-members')}</Title>
         </div>
 
         <div className="">

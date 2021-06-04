@@ -1,8 +1,10 @@
+import { useTranslation } from 'next-i18next';
 import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Hero = () => {
+  const { t } = useTranslation('hero');
   return (
     <div className="sm:bg-hero-pattern bg-no-repeat lg:bg-hero-lg md:bg-hero-md bg-none">
       <div className="grid grid-cols-1 mt-0 sm:grid-cols-2 container mx-auto md:bg-iPhone-in-Hand md:bg-no-repeat lg:h-hero-spacing md:h-hero-spacing-tablet md:bg-contain md:bg-iPhone-back-position-tablet lg:bg-iPhone-back-position lg:bg-iPhone-back-size md:bg-iPhone-back-size-tablet">
@@ -12,10 +14,8 @@ export const Hero = () => {
           </div>
           <div className="text-3xl sm:text-hero-description pt-2 flex flex-col sm:flex-none sm:inline-block">
             <span>
-              Herramientas esenciales <br />
-              para la criptomoneda
+              {t('essential-tools')}<br />{t('for-the-cripto')}
             </span>
-
             <span className="text-4xl sm:text-5xl text-green-chia-lime sm:ml-2 ">
               Chia
             </span>
@@ -27,14 +27,14 @@ export const Hero = () => {
                   icon={faCheckCircle}
                   className="mr-2 mt-0.5 text-green-chia-lime "
                 />
-                <div>Infraestructura completa para el ecosistema de Chia</div>
+                <div>{t('complete-infrastructure')}</div>
               </div>
               <div className="flex flex-row">
                 <FontAwesomeIcon
                   icon={faCheckCircle}
                   className="mr-2 mt-0.5 text-green-chia-lime "
                 />
-                <div>Próximamente en Windows, Linux, Mac, Android, iOS</div>
+                <div>{t('coming-soon')}</div>
               </div>
             </div>
             <div className="mt-14 sm:mt-20">
@@ -42,7 +42,7 @@ export const Hero = () => {
                 className="px-4 py-4 mr-2 rounded bg-green-chia-lime font-gibson-light buttonsHero"
                 href="/app"
               >
-                ACCEDE A LA APP
+                {t('access-the-app')}
               </a>
 
               <a
@@ -50,7 +50,7 @@ export const Hero = () => {
                 href="https://www.youtube.com/watch?v=XUHvGqGD1EA&t=684s"
                 target="_blank"
               >
-                VER VIDEO &nbsp;
+                {t('watch-video')}
                 <FontAwesomeIcon
                   icon={faPlayCircle}
                   className=" text-green-chia-lime"
@@ -74,7 +74,7 @@ export const Hero = () => {
                   15.540
                 </span>
                 <div className="text-green-chia-lime bubblesHero">
-                  Registrados en ChiaTK
+                  {t('registered-in-chiatk')}
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ export const Hero = () => {
           <div className="top-16 left-14 md:top-64 md:left-5 lg:top-20 lg:left-5 backdrop-filter backdrop-blur-xs  absolute rounded-xl">
             <div className="py-2 px-6">
               <div className="text-green-chia-lime bubblesHero text-center">
-                Total network space
+                {t('total-network-space')}
               </div>
               <span className="bubblesHeroDescription">
                 11.975 EiB
