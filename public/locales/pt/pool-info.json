@@ -1,9 +1,9 @@
 {
-  "title-pool-info":"Información de la Pool",
-  "subtitle-pool-info-1":"La información será actualizada una vez ",
-  "subtitle-pool-info-2":" la Pool este operativa",
-  "or-less":" o Menos",
-  "commission":"Comisión",
-  "pool-size":"Tamaño de la Pool",
-  "growth-rate":"Tamaño de la Pool"
+  "title-pool-info":"Informação da piscina",
+  "subtitle-pool-info-1":"As informações serão atualizadas uma vez ",
+  "subtitle-pool-info-2":" o Pool está operacional",
+  "or-less":" ou menos",
+  "commission":"Comissão",
+  "pool-size":"Tamanho da piscina",
+  "growth-rate":"Tamanho da piscina"
 }
