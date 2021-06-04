@@ -34,7 +34,7 @@ const Faq = () => {
 
   return (
     <div className="bg-green-chia-dark3 pt-16">
-      <div className="py-14 pb-10 container mx-auto px-5 md:px-0 lg:px-28">
+      <div className="py-14 pb-10 container mx-auto">
         <img className="w-20" src="images/Group 1.png" />
         <Title>{t('title-faq')}</Title>
         <div className="text-green-chia-dark1 text-lg font-gibson-light">

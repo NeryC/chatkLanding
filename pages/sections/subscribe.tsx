@@ -67,7 +67,7 @@ const Subscribe = () => {
   }
 
   return (
-    <div className="bg-green-chia-lime px-5 sm:px-0 lg:h-suscribe md:h-suscribe-tablet h-suscribe-mobile">
+    <div className="bg-green-chia-lime px-5 sm:px-0 lg:h-suscribe 2xl:h-suscribe-2xl md:h-suscribe-tablet h-suscribe-mobile">
       <div className="mx-auto container lg:flex lg:justify-between md:grid ">
         <div className="lg:mt-3 pt-14"> 
           <img className="w-20" src="images/Group 3337.png" />

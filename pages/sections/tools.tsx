@@ -7,7 +7,7 @@ const Tools = () => {
   const { t } = useTranslation('tools');
   return (
     <div className="bg-green-chia-dark3 pb-28">
-      <div className="px-5 pt-8 container mx-auto px-5 md:px-0 lg:px-28">
+      <div className="pt-6 container mx-auto">
         <div className="flex flex-col items-center my-20 text-center">
           <img className="w-20" src="images/Group 1.png" />
           <Title>{t('title-tools')}</Title>

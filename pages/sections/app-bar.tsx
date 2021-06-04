@@ -20,7 +20,7 @@ export const AppBar = () => {
           />
           <a 
             className="bg-transparent hover:bg-green-500 text-green-chia-lime font-gibson-light hover:text-white py-2 px-5 border border-green-500 hover:border-transparent rounded text-sm"
-            href="/app"
+            href="/app/index.html"
           >
             {t('btn-register')}
           </a>

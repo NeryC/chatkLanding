@@ -6,8 +6,24 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Hero = () => {
   const { t } = useTranslation('hero');
   return (
-    <div className="sm:bg-hero-pattern bg-no-repeat lg:bg-hero-lg md:bg-hero-md bg-none">
-      <div className="grid grid-cols-1 mt-0 sm:grid-cols-2 container mx-auto md:bg-iPhone-in-Hand md:bg-no-repeat lg:h-hero-spacing md:h-hero-spacing-tablet md:bg-contain md:bg-iPhone-back-position-tablet lg:bg-iPhone-back-position lg:bg-iPhone-back-size md:bg-iPhone-back-size-tablet">
+    <div className="sm:bg-hero-pattern bg-no-repeat lg:bg-hero-lg sm:bg-hero-md bg-none">
+      <div className="
+        grid 
+        grid-cols-1 
+        mt-0 
+        container mx-auto
+        sm:grid-cols-2 
+        sm:bg-iPhone-in-Hand
+        sm:bg-no-repeat
+        sm:h-hero-spacing-tablet
+        sm:bg-contain
+        sm:bg-iPhone-back-size-tablet
+        sm:bg-iPhone-back-position-tablet
+        lg:bg-iPhone-back-position
+        lg:h-hero-spacing 
+        lg:bg-iPhone-back-size 
+        xl:bg-iPhone-back-position-xl
+        2xl:bg-iPhone-back-position-2xl">
         <div className="flex flex-col flex-none self-center md:place-items-start py-10 px-5 sm:px-0">
           <div className="text-5xl sm:text-hero text-green-chia-lime">
             Chia ToolKit
@@ -67,7 +83,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="left-8 md:left-2 md:bottom-26 lg:bottom-48 bottom-48 backdrop-filter backdrop-blur-3xl  absolute rounded-xl">
+          <div className="left-8 md:left-2 md:bottom-26 lg:bottom-48 lg:left-24 2xl:left-32 2xl:bottom-60 bottom-48 backdrop-filter backdrop-blur-3xl  absolute rounded-xl">
             <div className="py-3 px-3">
               <div>
                 <span className="bubblesHeroDescription">
@@ -80,7 +96,7 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="top-16 left-14 md:top-64 md:left-5 lg:top-20 lg:left-5 backdrop-filter backdrop-blur-xs  absolute rounded-xl">
+          <div className="top-16 left-14 md:top-64 md:left-0 xl:left-28 lg:top-20 lg:left-16 2xl:left-32 backdrop-filter backdrop-blur-xs  absolute rounded-xl">
             <div className="py-2 px-6">
               <div className="text-green-chia-lime bubblesHero text-center">
                 {t('total-network-space')}
@@ -91,7 +107,7 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="top-32 right-5 md:right-2 md:top-80 lg:top-1/4 backdrop-filter backdrop-blur-3xl  absolute rounded-xl">
+          <div className="top-32 right-5 md:right-2 xl:right-0 lg:right-16 md:top-80 lg:top-1/4 backdrop-filter backdrop-blur-3xl  absolute rounded-xl">
             <div className="py-2 px-3">
               <div>
                 <div className="text-green-chia-lime bubblesHero text-center">
@@ -102,10 +118,6 @@ export const Hero = () => {
                 </span>
               </div>
             </div>
-          </div>
-
-          <div className="md:hidden">
-            <img src="/images/iPhone-in-Hand-Mockup.png" />
           </div>
         </div>
       </div>
