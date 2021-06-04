@@ -1,3 +1,5 @@
+import React from "react";
+import { useTranslation } from 'next-i18next';
 import {
   faDiscord,
   faInstagram,
@@ -8,15 +10,15 @@ import {
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 
 const Footer = () => {
+  const { t } = useTranslation('footer');
   return (
     <div className="py-5 container mx-auto">
       <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
         <div className="flex flex-col justify-center">
           <div><img className="mb-10" src="images/Group 20.png" /></div>
-          <div className="text-xl">Descarga la App</div>
+          <div className="text-xl">{t('download')}</div>
           <div className="flex mt-5">
             <img src="/images/Group 14.png" className="mr-2 hidden" />
             <a href="https://play.google.com/store/apps/details?id=com.chiatk.apps.movil" target="_blank">
@@ -82,11 +84,11 @@ const Footer = () => {
           </div>
           <div className="text-green-chia-dark1 flex justify-start sm:justify-end mb-5 whitespace-nowrap text-sm">
             <div className="pr-2">
-              <a href="https://docs.google.com/document/d/1sBfCOoj3pn-_M4-x6EE737Kx6cpl4ilTgUGJ3EcxqYI/edit?usp=sharing">Términos y condiciones</a>
+              <a href="https://docs.google.com/document/d/1sBfCOoj3pn-_M4-x6EE737Kx6cpl4ilTgUGJ3EcxqYI/edit?usp=sharing">{t('terms-and-conditions')}</a>
             </div>
             {/* |&nbsp; */}
             <div className="hidden">
-              <a href="#">Política de privacidad</a>
+              <a href="#">{t('privacy-policy')}</a>
             </div>
           </div>
         </div>

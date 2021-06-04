@@ -1,9 +1,11 @@
+import React from "react";
+import { useTranslation } from 'next-i18next';
 import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import React from "react";
 
 export const AppBar = () => {
+  const { t } = useTranslation('app-bar');
   return (
     <div className="sticky top-0 z-10 px-5 align-middle bg-green-chia-dark4">
       <div className="mx-auto container grid grid-cols-2 ">
@@ -20,7 +22,7 @@ export const AppBar = () => {
             className="bg-transparent hover:bg-green-500 text-green-chia-lime font-gibson-light hover:text-white py-2 px-5 border border-green-500 hover:border-transparent rounded text-sm"
             href="/app/index.html"
           >
-            REGISTRESE
+            {t('btn-register')}
           </a>
         </div>
       </div>

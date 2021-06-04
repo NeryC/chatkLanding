@@ -1,10 +1,12 @@
+import { useState } from "react";
+import { useTranslation } from 'next-i18next';
 import validator from 'validator'
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
 import Title from "../components/title";
 
 const Subscribe = () => {
+  const { t } = useTranslation('subscribe');
   const [mailValue, setMailValue] = useState('');
 
   const postEmail = () => {
@@ -69,8 +71,10 @@ const Subscribe = () => {
       <div className="mx-auto container lg:flex lg:justify-between md:grid ">
         <div className="lg:mt-3 pt-14"> 
           <img className="w-20" src="images/Group 3337.png" />
-          <Title>Suscríbete</Title>
-          <span className="font-gibson-light text-lg">No te pierdas nuestros lanzamientos y noticias</span>
+          <Title>{t('title-subscribe')}</Title>
+          <span className="font-gibson-light text-lg">
+            {t('subtitle-subscribe')}
+          </span>
         </div>
         <div className="flex flex-col">
           <div className="flex flex-row h-12 mt-14 lg:mt-26 md:mt-16">
@@ -85,7 +89,7 @@ const Subscribe = () => {
               <FontAwesomeIcon
                 size="2x"
                 icon={faPaperPlane}
-                className="mx-1 text-white text-xl"
+                className="mx-1 text-white text-lg"
               />
             </button>
           </div>

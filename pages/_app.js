@@ -1,10 +1,13 @@
 import "../styles/globals.css";
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import Head from "next/head";
+import { appWithTranslation } from 'next-i18next'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <link rel="shortcut icon" href="images/icon/chiatkIcon.ico" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86"
@@ -27,4 +30,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);
