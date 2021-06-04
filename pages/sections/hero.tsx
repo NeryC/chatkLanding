@@ -86,7 +86,7 @@ export const Hero = () => {
                 {t('total-network-space')}
               </div>
               <span className="bubblesHeroDescription">
-                11.975 EiB
+                17.122 EiB
               </span>
             </div>
           </div>
@@ -98,7 +98,7 @@ export const Hero = () => {
                   XCH/USDT
                 </div>
                 <span className="bubblesHeroDescription">
-                  ≈ $1069.51 USD
+                  ≈ $693.93
                 </span>
               </div>
             </div>

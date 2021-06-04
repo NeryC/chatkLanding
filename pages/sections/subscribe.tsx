@@ -89,7 +89,7 @@ const Subscribe = () => {
               <FontAwesomeIcon
                 size="2x"
                 icon={faPaperPlane}
-                className="mx-1 text-white text-xl"
+                className="mx-1 text-white text-lg"
               />
             </button>
           </div>

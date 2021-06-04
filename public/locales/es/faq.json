@@ -1,7 +1,7 @@
 {
   "title-faq":"Preguntas Frecuentes",
-  "subtitle-faq-1":"Sabemos que tienes algunas preguntas en mente, hemos <br/>resaltado las más importantes.",
-  "subtitle-faq-2":" resaltado las más importantes.",
+  "subtitle-faq-1":"Sabemos que tienes algunas preguntas en mente, hemos ",
+  "subtitle-faq-2":"resaltado las más importantes.",
   "label-faq-1":"¿Qué es Chia?",
   "description-faq-1":"Chia nace en agosto de 2017 con el objetivo de desarrollar una plataforma de transacciones inteligentes y blockchain mejorada. La red de Chia busca mejorar el sistema financiero y de pago global, buscando ser el primer dinero digital empresarial. Chia está utilizando el primer nuevo algoritmo de consenso desde la creación del Bitcoin, que es la Prueba de espacio y tiempo, creada por Bram Cohen, el mejor ingeniero de protocolos de red vivo e inventor de BitTorrent. Junto con chia nace Chialisp el nuevo lenguaje de programación de transacciones inteligentes potente, fácil de auditar y seguro.",
   "label-faq-2":"¿No es Bitcoin lo suficientemente bueno?",
