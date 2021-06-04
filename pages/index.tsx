@@ -9,12 +9,14 @@ import Stats from "./sections/stats";
 import Subscribe from "./sections/subscribe";
 import Tools from "./sections/tools";
 import CardMemberList from "./sections/card_member_list";
+import Promotions from "./sections/promotion";
 
 export default function Home(props: any) {
   return (
     <div className="mx-auto shadow text-white-chia bg-green-chia-dark4 text-xl font-gibson ">
       <AppBar />
       <Hero />
+      <Promotions />
       <Tools />
       <Stats />
       <PoolInfo />

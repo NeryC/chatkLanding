@@ -24,6 +24,12 @@
     "img":"images/members/Alejandra.png"
   },
   {
+    "name":"LIZ MAZO",
+    "position":"Embajadora Europa",
+    "country":"Colombia",
+    "img":"images/members/Liz.png"
+  },
+  {
     "name":"FRANCISCO POLO",
     "position":"Senior UI Designer",
     "country":"Colombia",
@@ -40,6 +46,12 @@
     "position":"Video Editor",
     "country":"Argentina",
     "img":"images/members/Gonzalo.png"
+  },
+  {
+    "name":"MATIAS ZERBATTO",
+    "position":"Seo de Youtube",
+    "country":"Argentina",
+    "img":"images/members/Matias.png"
   },
   {
     "name":"GABRIEL PELIZZA",
