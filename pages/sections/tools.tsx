@@ -77,7 +77,7 @@ const Tools = () => {
 
           <Tool
             title="Community"
-            imageUrl="/images/kit/calc.png"
+            imageUrl="/images/kit/Community.png"
           >
             {t('community-description')}
           </Tool>
