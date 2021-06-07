@@ -33,22 +33,22 @@ const Faq = () => {
   ];
 
   return (
-    <div className="bg-green-chia-dark3 pt-16">
-      <div className="py-14 pb-10 container mx-auto px-5 sm:px-0">
-        <img className="w-20" src="images/Group 1.png" />
-        <Title>{t('title-faq')}</Title>
-        <div className="text-green-chia-dark1 text-lg font-gibson-light">
-          {t('subtitle-faq-1')}<br/>{t('subtitle-faq-2')}
+    <>
+      <div className="bg-green-chia-dark3 pt-16 px-5 sm:px-0">
+        <div className="py-14 pb-10 container mx-auto">
+          <img className="w-20" src="images/Group 1.png" />
+          <Title>{t('title-faq')}</Title>
+          <div className="text-green-chia-dark1 text-lg font-gibson-light">
+            {t('subtitle-faq-1')}<br/>{t('subtitle-faq-2')}
+          </div>
         </div>
       </div>
-
       <div className="bg-green-chia-dark4 pt-10 pb-14">
         <div className=" container mx-auto">
           <Accordion hiddenTexts={hiddenTexts} />
         </div>
       </div>
-      <div className="bg-green-chia-dark3"></div>
-    </div>
+    </>
   );
 };
 

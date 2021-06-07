@@ -6,8 +6,8 @@ import Tool from "../components/tool";
 const Tools = () => {
   const { t } = useTranslation('tools');
   return (
-    <div className="bg-green-chia-dark3 pb-28">
-      <div className="pt-6 container mx-auto px-5 sm:px-0">
+    <div className="bg-green-chia-dark3 pb-28 px-5 sm:px-0">
+      <div className="pt-6 container mx-auto">
         <div className="flex flex-col items-center my-20 text-center">
           <img className="w-20" src="images/Group 1.png" />
           <Title>{t('title-tools')}</Title>
