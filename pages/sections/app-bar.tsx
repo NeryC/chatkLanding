@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from 'next-i18next';
-import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 export const AppBar = () => {
@@ -14,13 +14,13 @@ export const AppBar = () => {
         </div>
 
         <div className="py-2 flex items-center justify-end">
-          <FontAwesomeIcon
+          {/* <FontAwesomeIcon
             icon={faShareAlt}
             className="mx-6 hidden md:inline-block text-sm"
-          />
+          /> */}
           <a 
             className="bg-transparent hover:bg-green-500 text-green-chia-lime font-gibson-light hover:text-white py-2 px-5 border border-green-500 hover:border-transparent rounded text-sm"
-            href="/app/index.html"
+            href="https://app.chiatk.com/"
           >
             {t('btn-register')}
           </a>

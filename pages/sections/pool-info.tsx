@@ -5,7 +5,28 @@ import Title from "../components/title";
 const PoolInfo = () => {
   const { t } = useTranslation('pool-info');
   return (
-    <div className="bg-green-chia-dark3 pt-36 pb-16 px-5 sm:px-0 bg-iPhone-information lg:bg-iPhone-back-info-position xl:bg-pool-back-info-position-xl 2xl:bg-pool-back-info-position-2xl md:bg-pool-back-info-position-tablet bg-pool-back-info-position-mobile lg:bg-iPhone-back-info-size md:bg-pool-back-info-size-tablet bg-pool-back-info-size-mobile bg-no-repeat lg:h-pool-info-lg xl:h-pool-info-xl 2xl:h-pool-info-2xl md:h-pool-info-tablet">
+    <div className="
+      bg-green-chia-dark3 
+      bg-iPhone-information
+      bg-pool-back-info-position-mobile
+      bg-pool-back-info-size-mobile
+      bg-no-repeat
+      h-pool-info-mobile
+      pt-28 
+      pb-16 
+      px-5 
+      sm:px-0
+      sm:pt-36 
+      md:bg-pool-back-info-position-tablet
+      md:bg-pool-back-info-size-tablet
+      md:h-pool-info-tablet
+      lg:bg-iPhone-back-info-position 
+      lg:bg-iPhone-back-info-size
+      lg:h-pool-info-lg
+      xl:bg-pool-back-info-position-xl
+      xl:h-pool-info-xl 
+      2xl:bg-pool-back-info-position-2xl
+      2xl:h-pool-info-2xl">
       <div className="container mx-auto">
         <div className="md:w-80 lg:w-auto">
           <img className="w-20" src="images/Group 1.png" />

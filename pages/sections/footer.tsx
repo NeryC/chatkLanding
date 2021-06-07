@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   const { t } = useTranslation('footer');
   return (
-    <div className="py-5 container mx-auto">
+    <div className="py-5 container mx-auto px-5 sm:px-0">
       <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
         <div className="flex flex-col justify-center">
           <div><img className="mb-10" src="images/Group 20.png" /></div>

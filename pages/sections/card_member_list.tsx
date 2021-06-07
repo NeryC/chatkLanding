@@ -51,7 +51,7 @@ const CardMemberList = () => {
 
   function Arrow(props) {
     let className = props.type === "next" ? "next" : "prev";
-    className += " arrow";
+    className += " arrow hidden sm:block";
     return (
       <span className={className} onClick={props.onClick}>
       </span>

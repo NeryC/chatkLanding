@@ -13,7 +13,7 @@ import Title from "../components/title";
 const Stats = () => {
   const { t } = useTranslation('stats');
   return (
-    <div className="py-24 container mx-auto">
+    <div className="py-24 container mx-auto px-5 sm:px-0">
       <div className="mb-14">
         <img className="w-20" src="images/Group 1.png" />
         <Title>{t('title-stats')}</Title>

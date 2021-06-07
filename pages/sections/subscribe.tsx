@@ -18,7 +18,6 @@ const Subscribe = () => {
       },
       body: JSON.stringify({"email":mailValue})
     }).then(function(response) {
-      console.log(response);
       const tipSpan = document.getElementById('tipSpan');
       if(tipSpan){
         if(response.ok) {
@@ -87,9 +86,8 @@ const Subscribe = () => {
             />
             <button type="button" className="bg-green-chia-dark3 rounded-lg p-2 w-19" onClick={handlerClick}>
               <FontAwesomeIcon
-                size="2x"
                 icon={faPaperPlane}
-                className="mx-1 text-white text-lg"
+                className="mx-1 text-white"
               />
             </button>
           </div>

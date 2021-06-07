@@ -2,9 +2,27 @@ import { useTranslation } from 'next-i18next';
 import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect, useState } from 'react';
 
 export const Hero = () => {
+  const [data, setData] = useState({ price: 0, net_space:"0" });
   const { t } = useTranslation('hero');
+
+  useEffect(() => {
+    fetch('https://us-central1-basic-zenith-312516.cloudfunctions.net/getSpaceAndPrice')
+    .then(response => response.json())
+    .then(function(response) {
+      setData(
+        {
+          price: response.data.price,
+          net_space:(response.data.net_space/1000000000000000000).toFixed(3)
+        }
+      );
+    })
+    .catch(function(error) {
+      console.log(error)
+    });
+  },[]);
   return (
     <div className="sm:bg-hero-pattern bg-no-repeat lg:bg-hero-lg sm:bg-hero-md bg-none">
       <div className="
@@ -56,14 +74,14 @@ export const Hero = () => {
             <div className="mt-14 sm:mt-20">
               <a
                 className="px-4 py-4 mr-2 rounded bg-green-chia-lime font-gibson-light buttonsHero"
-                href="/app"
+                href="https://app.chiatk.com/"
               >
                 {t('access-the-app')}
               </a>
 
               <a
                 className="px-6 py-4 rounded text-green-400 border-green-400 border text-center buttonsHero"
-                href="https://www.youtube.com/watch?v=XUHvGqGD1EA&t=684s"
+                href="https://www.youtube.com/watch?v=X6sROJaRllA&t=1s"
                 target="_blank"
               >
                 {t('watch-video')}
@@ -87,7 +105,7 @@ export const Hero = () => {
             <div className="py-3 px-3">
               <div>
                 <span className="bubblesHeroDescription">
-                  15.540
+                  1.954
                 </span>
                 <div className="text-green-chia-lime bubblesHero">
                   {t('registered-in-chiatk')}
@@ -102,7 +120,7 @@ export const Hero = () => {
                 {t('total-network-space')}
               </div>
               <span className="bubblesHeroDescription">
-                17.122 EiB
+                {data.net_space} EiB
               </span>
             </div>
           </div>
@@ -114,10 +132,13 @@ export const Hero = () => {
                   XCH/USDT
                 </div>
                 <span className="bubblesHeroDescription">
-                  ≈ $693.93
+                  ≈ ${data.price}
                 </span>
               </div>
             </div>
+          </div>
+          <div className="sm:hidden">
+            <img src="/images/iPhone-in-Hand-Mockup.png" />
           </div>
         </div>
       </div>

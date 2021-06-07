@@ -61,7 +61,7 @@ module.exports = {
       'cardImage': '21.5rem',
       'cardImage-sm': '30rem',
       'cardImage-md': '29rem',
-      'pool-info': '55vw',
+      'pool-info-mobile': '222vw',
       'pool-info-lg': '79vw',
       'pool-info-xl': '64vw',
       'pool-info-2xl': '60vw',
@@ -75,7 +75,7 @@ module.exports = {
       backgroundImage: (theme) => ({
         "hero-pattern": "url('/images/Path 1130.png')",
         "iPhone-in-Hand": "url('/images/iPhone-in-Hand-Mockup.png')",
-        "iPhone-information": "url('/images/Group 16338.png')",
+        "iPhone-information": "url('/images/Pool-info.png')",
       }),
       colors: {
         "green-chia-dark2": "#3A6080",
