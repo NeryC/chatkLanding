@@ -15,7 +15,7 @@ const Stats = () => {
   return (
     <div className="py-24 px-5 sm:px-0">
       <div className="mb-14 container mx-auto ">
-        <img className="w-20" src="images/Group 1.png" />
+        <img className="w-20" src="images/Group 1.webp" />
         <Title>{t('title-stats')}</Title>
         <div className="text-green-chia-dark1 text-lg">
           {t('subtitle-stats')}

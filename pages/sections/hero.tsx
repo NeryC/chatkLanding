@@ -93,9 +93,9 @@ export const Hero = () => {
             </div>
 
             <div className="grid grid-cols-2 sm:flex mt-7">
-              <img className="sm:mr-2 h-9 w-28 hidden" src="/images/Group 14.png" />
+              <img className="sm:mr-2 h-9 w-28 hidden" src="/images/Group 14.webp" />
               <a href="https://play.google.com/store/apps/details?id=com.chiatk.apps.movil" target="_blank">
-                <img className="h-9 w-28" src="/images/Group 15.png" />
+                <img className="h-9 w-28" src="/images/Group 15.webp" />
               </a>
             </div>
           </div>
@@ -138,7 +138,7 @@ export const Hero = () => {
             </div>
           </div>
           <div className="sm:hidden">
-            <img src="/images/iPhone-in-Hand-Mockup.png" />
+            <img src="/images/iPhone-in-Hand-Mockup.webp" />
           </div>
         </div>
       </div>

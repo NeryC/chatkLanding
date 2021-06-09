@@ -20,16 +20,16 @@ const Promotion = () => {
       <div className="container mx-auto">
       <Slider {...settings}>
           <div>
-            <img className="h-auto" src="images/promotions/Group 28543@2x.png" />
+            <img className="h-auto" src="images/promotions/Group 28543@2x.webp" />
           </div>
           <div>
-            <img className="h-auto" src="images/promotions/Group 28544@2x.png" />
+            <img className="h-auto" src="images/promotions/Group 28544@2x.webp" />
           </div>
           <div>
-            <img className="h-auto" src="images/promotions/Group 28545@2x.png" />
+            <img className="h-auto" src="images/promotions/Group 28545@2x.webp" />
           </div>
           <div>
-            <img className="h-auto" src="images/promotions/Group 28546@2x.png" />
+            <img className="h-auto" src="images/promotions/Group 28546@2x.webp" />
           </div>
         </Slider>
       </div>

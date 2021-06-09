@@ -3,90 +3,90 @@
     "name":"ALEJANDRO ARNAUD",
     "position":"CEO",
     "country":"República Dominicana",
-    "img":"images/members/Alejandro.png"
+    "img":"images/members/Alejandro.webp"
   },
   {
     "name":"ADRIAN AYALA",
     "position":"Product Manager",
     "country":"Colombia",
-    "img":"images/members/Adrian.png"
+    "img":"images/members/Adrian.webp"
   },
   {
     "name":"MARVIN QUEVEDO",
     "position":"Frontend Leader",
     "country":"El Salvador",
-    "img":"images/members/Marvin.png"
+    "img":"images/members/Marvin.webp"
   },
   {
     "name":"ALEJANDRA CAICEDO",
     "position":"Marketing",
     "country":"Colombia",
-    "img":"images/members/Alejandra.png"
+    "img":"images/members/Alejandra.webp"
   },
   {
     "name":"LIZ MAZO",
     "position":"Embajadora Europa",
     "country":"Colombia",
-    "img":"images/members/Liz.png"
+    "img":"images/members/Liz.webp"
   },
   {
     "name":"FRANCISCO POLO",
     "position":"Senior UI Designer",
     "country":"Colombia",
-    "img":"images/members/Francisco.png"
+    "img":"images/members/Francisco.webp"
   },
   {
     "name":"NERY CANO",
     "position":"Front-end Developer",
     "country":"Paraguay",
-    "img":"images/members/Nery.png"
+    "img":"images/members/Nery.webp"
   },
   {
     "name":"GONZALO LÓPEZ",
-    "position":"Video Editor",
+    "position":"Video Editor / Diseñador",
     "country":"Argentina",
-    "img":"images/members/Gonzalo.png"
+    "img":"images/members/Gonzalo.webp"
   },
   {
     "name":"MATIAS ZERBATTO",
     "position":"Seo de Youtube",
     "country":"Argentina",
-    "img":"images/members/Matias.png"
+    "img":"images/members/Matias.webp"
   },
   {
-    "name":"GABRIEL PELIZZA",
-    "position":"Backend Developer",
+    "name":"JOEL KOLOFF",
+    "position":"Educador Tecnológico",
     "country":"Argentina",
-    "img":"images/members/Gabriel.png"
-  },
-  {
-    "name":"JOEL FERNANDEZ",
-    "position":"Influencer",
-    "country":"Argentina",
-    "img":"images/members/Joel.png"
+    "img":"images/members/Joel.webp"
   },
   {
     "name":"CARLOS PERALTA",
     "position":"Scrum Master",
     "country":"Argentina",
-    "img":"images/members/Carlos.png"
+    "img":"images/members/Carlos.webp"
   },
   {
     "name":"ESTEBAN PARRA",
     "position":"Backend Developer",
     "country":"Colombia",
-    "img":"images/members/Esteban.png"
+    "img":"images/members/Esteban.webp"
   },
   {
     "name":"JOSÉ VARGAS",
     "position":"DevOps",
     "country":"Colombia",
-    "img":"images/members/Jose.png"
+    "img":"images/members/Jose.webp"
+  },
+  {
+    "name":"GABRIEL PELIZZA",
+    "position":"Backend Developer",
+    "country":"Argentina",
+    "img":"images/members/Gabriel.webp"
   },
   {
     "name":"CRISTIAN LAUTARO",
     "position":"Backend Developer",
     "country":"Argentina",
-    "img":"images/members/Cristian.png"
+    "img":"images/members/Cristian.webp"
   }
 ]

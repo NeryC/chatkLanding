@@ -17,18 +17,18 @@ const Footer = () => {
     <div className="py-5 px-5 sm:px-0">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
         <div className="flex flex-col justify-center">
-          <div><img className="mb-10" src="images/Group 20.png" /></div>
+          <div><img className="mb-10" src="images/Group 20.webp" /></div>
           <div className="text-xl">{t('download')}</div>
           <div className="flex mt-5">
-            <img src="/images/Group 14.png" className="mr-2 hidden" />
+            <img src="/images/Group 14.webp" className="mr-2 hidden" />
             <a href="https://play.google.com/store/apps/details?id=com.chiatk.apps.movil" target="_blank">
-              <img src="/images/Group 15.png" />
+              <img src="/images/Group 15.webp" />
             </a>
           </div>
         </div>
 
         <div className="p-5 sm:flex justify-center hidden">
-          <img src="images/coin.png" />
+          <img src="images/coin.webp" />
         </div>
 
         <div className="flex flex-col justify-center">

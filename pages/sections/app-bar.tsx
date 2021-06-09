@@ -10,7 +10,7 @@ export const AppBar = () => {
     <div className="sticky top-0 z-10 px-5 align-middle bg-green-chia-dark4">
       <div className="mx-auto container grid grid-cols-2 ">
         <div className="flex place-items-center my-2">
-          <img className="logoHeader" src="images/Group 20.png" />
+          <img className="logoHeader" src="images/Group 20.webp" />
         </div>
 
         <div className="py-2 flex items-center justify-end">

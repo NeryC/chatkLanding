@@ -29,7 +29,7 @@ const PoolInfo = () => {
       2xl:h-pool-info-2xl">
       <div className="container mx-auto">
         <div className="md:w-80 lg:w-auto">
-          <img className="w-20" src="images/Group 1.png" />
+          <img className="w-20" src="images/Group 1.webp" />
           <Title>{t('title-pool-info')}</Title>
           <span className="text-green-chia-dark1 text-lg">
           {t('subtitle-pool-info-1')}<br/>{t('subtitle-pool-info-2')}
@@ -39,30 +39,30 @@ const PoolInfo = () => {
           <div className="px-5 ">
             <div className="mt-9 sm:grid lg:grid-cols-2">
               <div className="mb-5">
-                <img className="w-11" src="/images/pool-info/comision.png" />
+                <img className="w-11" src="/images/pool-info/comision.webp" />
                 <div className="text-4xl sm:text-5xl font-bold text-green-chia-lime mt-2 font-gibson-light">
                   1%
                   <span className="text-green-chia-lime text-2xl font-gibson-light">{t('or-less')}</span>
                 </div>
-                <div className="text-2xl sm:text-lg">{t('commission')}</div>
+                {/* <div className="text-2xl sm:text-lg">{t('commission')}</div> */}
               </div>
               <div className="mb-5">
-                <img className="w-11" src="/images/pool-info/size.png" />
-                <div className="text-4xl sm:text-4.5xl font-bold text-green-chia-lime mt-4 font-gibson-light">
-                  <span>53.69 </span>
-                  <span className="font-light">PiB</span>
+                <img className="w-11" src="/images/pool-info/size.webp" />
+                <div className="text-3xl sm:text-3xl font-bold text-green-chia-lime mt-4 font-gibson-light">
+                  <span>Próximamente</span>
+                  {/* <span className="font-light">PiB</span> */}
                 </div>
-                <div className="text-2xl sm:text-lg">{t('pool-size')}</div>
+                {/* <div className="text-2xl sm:text-lg">{t('pool-size')}</div> */}
               </div>
 
               <div className="mb-5 lg:mt-10">
-                <img className="w-11" src="/images/pool-info/crecimiento.png" />
-                <div className="text-4xl sm:text-5xl font-bold text-green-chia-lime mt-5 font-gibson-light">
-                  15%
+                <img className="w-11" src="/images/pool-info/crecimiento.webp" />
+                <div className="text-3xl sm:text-3xl font-bold text-green-chia-lime mt-5 font-gibson-light">
+                Próximamente
                 </div>
-                <div className="text-2xl sm:text-lg">
+                {/* <div className="text-2xl sm:text-lg">
                   {t('growth-rate')}
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

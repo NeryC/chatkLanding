@@ -73,9 +73,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        "hero-pattern": "url('/images/Path 1130.png')",
-        "iPhone-in-Hand": "url('/images/iPhone-in-Hand-Mockup.png')",
-        "iPhone-information": "url('/images/Pool-info.png')",
+        "hero-pattern": "url('/images/Path 1130.webp')",
+        "iPhone-in-Hand": "url('/images/iPhone-in-Hand-Mockup.webp')",
+        "iPhone-information": "url('/images/Pool-info.webp')",
       }),
       colors: {
         "green-chia-dark2": "#3A6080",

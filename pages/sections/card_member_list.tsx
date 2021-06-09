@@ -68,7 +68,7 @@ const CardMemberList = () => {
     <div className="bg-green-chia-dark3 pt-4 pb-5">
       <div className="container mx-auto">
         <div className="flex flex-col items-center mt-24 text-center px-5 sm:px-0">
-          <img className="w-20" src="images/Group 1.png" />
+          <img className="w-20" src="images/Group 1.webp" />
           <Title>{t('title-members')}</Title>
         </div>
 

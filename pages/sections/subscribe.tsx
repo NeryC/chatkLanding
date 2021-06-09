@@ -69,7 +69,7 @@ const Subscribe = () => {
     <div className="bg-green-chia-lime px-5 sm:px-0 lg:h-suscribe 2xl:h-suscribe-2xl md:h-suscribe-tablet h-suscribe-mobile">
       <div className="mx-auto container lg:flex lg:justify-between md:grid ">
         <div className="lg:mt-3 pt-14"> 
-          <img className="w-20" src="images/Group 3337.png" />
+          <img className="w-20" src="images/Group 3337.webp" />
           <Title>{t('title-subscribe')}</Title>
           <span className="font-gibson-light text-lg">
             {t('subtitle-subscribe')}
@@ -80,7 +80,7 @@ const Subscribe = () => {
             <input
               type="text"
               className="rounded-lg pl-4 w-full text-black w-suscribe-input"
-              placeholder="Correo electrónico"
+              placeholder={t('suscribe-place-holder')}
               onChange={event=> handleChange(event)}
               value={mailValue}
             />
